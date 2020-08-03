@@ -1,0 +1,22 @@
+7-16
+look for writer
+implement an inventory
+
+7-15
+continue work with Unilous
+    maybe store question and join requests within Notifications
+watch 1 epiode of cosmos
+study viability of making a classifying data site
+clean up code
+
+figure out how to determine automatic response or alternative
+setSchedule happening too often
+test that the nlp works
+prepare schedule to work more complex and take in a query
+build the story
+
+add a scheduled messages to user data to be able to send messages at a particular time
+    include a recieved during field to note what the user has sent since
+
+for some reason in controler.js(21) making the file into garbage results in the issue bring fixed
+Need to reassess how the story.json will be structured

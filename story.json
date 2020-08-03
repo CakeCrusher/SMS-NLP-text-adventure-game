@@ -1,0 +1,342 @@
+{
+    "0": {
+        "0": {
+            "reply": "I talked to diana she said we would be executing the third and final trial today. We will be doing it in 10 minutes to be exact I'll let you know what results we get",
+            "alternateResponse": {
+                "unclear": null,
+                "advance": {
+                    "x": "3",
+                    "y": "1"
+                }
+            },
+            "nlpData": {
+                "route": "https://api.wit.ai/message?v=20200714&q=",
+                "auth": "FIKOJ623RQMHOHL3WLAH6E3U4R7GNNDJ"
+            },
+            "schedule": {
+                "fromNow": "10000"
+            },
+            "action": null,
+            "options": [
+                {
+                    "intent": "who",
+                    "advance": {
+                        "x": "1",
+                        "y": "0"
+                    }
+                }
+            ]
+        }
+    },
+    "1": {
+        "0": {
+            "reply": "I am Mike who is this?",
+            "alternateResponse": null,
+            "nlpData": null,
+            "schedule": null,
+            "action": "set_name",
+            "options": [
+                {
+                    "intent": null,
+                    "advance": {
+                        "x": "2",
+                        "y": "0"
+                    }
+                    
+                }
+            ]
+        }
+    },
+    "2": {
+        "0": {
+            "reply": "I'm sorry (name) I thought you were John I must have messed up the numbers. In that case John did not pick up, could you please inform John that the container exploded yet the substance was produced anyways. Please let me know what he replies",
+            "alternateResponse": null,
+            "nlpData": null,
+            "schedule": null,
+            "action": null,
+            "options": [
+                {
+                    "intent": null,
+                    "advance": {
+                        "x": "3",
+                        "y": "0"
+                    }
+                    
+                }
+            ]
+        }
+    },
+    "3": {
+        "0": {
+            "reply": "Ok, well it is crawling around frantically yet with no rhythm or coordination. Do we kill it off? What do we do? ",
+            "alternateResponse": {
+                "unclear": "Do we kill it, contain it, whats the plan?",
+                "advance": null
+            },
+            "nlpData": {
+                "route": "https://api.wit.ai/message?v=20200714&q=",
+                "auth": "H6X3NJ4AUI2LYEHGXRF2KJATDEJO22M2"
+            },
+            "schedule": null,
+            "action": null,
+            "options": [
+                {
+                    "intent": "kill",
+                    "advance": {
+                        "x": "4",
+                        "y": "0"
+                    }
+                },
+                {
+                    "intent": "spare",
+                    "advance": {
+                        "x": "5",
+                        "y": "0"
+                    }
+                }
+            ]
+        },
+        "1": {
+            "reply": "Shit the container exploded yet we still managed to produce the substance. It is crawling around but with no rhythm or coordination. Do we kill it off? What do we do!?",
+            "alternateResponse": {
+                "unclear": "Do we kill it, contain it, whats the plan?",
+                "advance": null
+            },
+            "nlpData": {
+                "route": "https://api.wit.ai/message?v=20200714&q=",
+                "auth": "H6X3NJ4AUI2LYEHGXRF2KJATDEJO22M2"
+            },
+            "schedule": null,
+            "action": null,
+            "options": [
+                {
+                    "intent": "kill",
+                    "advance": {
+                        "x": "4",
+                        "y": "0"
+                    }
+                },
+                {
+                    "intent": "spare",
+                    "advance": {
+                        "x": "5",
+                        "y": "0"
+                    }
+                    
+                }
+            ]
+        }
+    },
+    "4": {
+        "0": {
+            "reply": "How do you propose we kill it?",
+            "alternateResponse": {
+                "unclear": "Well we can burn it crush it or desigtegrate it for good measure. What do we do?",
+                "advance": null
+            },
+            "nlpData": {
+                "route": "https://api.wit.ai/message?v=20200714&q=",
+                "auth": "VK3GJVUCW2EUYKD2N3ABI4SFUC2USZX3"
+            },
+            "schedule": null,
+            "action": null,
+            "options": [
+                {
+                    "intent": "burn",
+                    "advance": {
+                        "x": "5",
+                        "y": "1"
+                    }
+                },
+                {
+                    "intent": "crush",
+                    "advance": {
+                        "x": "5",
+                        "y": "2"
+                    }
+                },
+                {
+                    "intent": "desintegrate",
+                    "advance": {
+                        "x": "5",
+                        "y": "3"
+                    }
+                }
+            ]
+        }
+    },
+    "5": {
+        "0": {
+            "reply": "Ok, we will place it in a sealed flask. Should we contact our biochem professor Ms.Baker",
+            "alternateResponse": {
+                "unclear": "do we call her?",
+                "advance": null
+            },
+            "nlpData": {
+                "route": "https://api.wit.ai/message?v=20200714&q=",
+                "auth": "YV6PILIOYY3KLZC5UZ7WIJVXYWSLO3IR"
+            },
+            "schedule": null,
+            "action": null,
+            "options": [
+                {
+                    "intent": "call",
+                    "advance": {
+                        "x": "6",
+                        "y": "1"
+                    }
+                },
+                {
+                    "intent": "no_call",
+                    "advance": {
+                        "x": "6",
+                        "y": "0"
+                    }
+                }
+            ]
+        },
+        "1": {
+            "reply": "Although we tried various forms of burning it none killed it as it coated itself with an unknown substance that somehow maintained its insides cool. We also attempted burning and crushing it to no avail, we will contain it for the time being. Should we contact our biochem professor Ms.Baker",
+            "alternateResponse": {
+                "unclear": "do we call her?",
+                "advance": null
+            },
+            "nlpData": {
+                "route": "https://api.wit.ai/message?v=20200714&q=",
+                "auth": "YV6PILIOYY3KLZC5UZ7WIJVXYWSLO3IR"
+            },
+            "schedule": null,
+            "action": null,
+            "options": [
+                {
+                    "intent": "call",
+                    "advance": {
+                        "x": "6",
+                        "y": "1"
+                    }
+                },
+                {
+                    "intent": "no_call",
+                    "advance": {
+                        "x": "6",
+                        "y": "0"
+                    }
+                }
+            ]
+        },
+        "2": {
+            "reply": "We tried crushing it in varous ways but none killed it as it covered itself in a protective carbon shell with an incredibly strong structure. We also attempted burning and crushing it to no avail, we will contain it for the time being. Should we contact our biochem professor Ms.Baker",
+            "alternateResponse": {
+                "unclear": "do we call her?",
+                "advance": null
+            },
+            "nlpData": {
+                "route": "https://api.wit.ai/message?v=20200714&q=",
+                "auth": "YV6PILIOYY3KLZC5UZ7WIJVXYWSLO3IR"
+            },
+            "schedule": null,
+            "action": null,
+            "options": [
+                {
+                    "intent": "call",
+                    "advance": {
+                        "x": "6",
+                        "y": "1"
+                    }
+                },
+                {
+                    "intent": "no_call",
+                    "advance": {
+                        "x": "6",
+                        "y": "0"
+                    }
+                }
+            ]
+        },
+        "3": {
+            "reply": "We tried to disintegrate it in various ways but it seems to cover itself with a Neon coting. Meaning it refuses to react to anything. We also attempted burning and crushing it to no avail, we will contain it for the time being. Should we contact our biochem professor Ms.Baker",
+            "alternateResponse": {
+                "unclear": "do we call her?",
+                "advance": null
+            },
+            "nlpData": {
+                "route": "https://api.wit.ai/message?v=20200714&q=",
+                "auth": "YV6PILIOYY3KLZC5UZ7WIJVXYWSLO3IR"
+            },
+            "schedule": null,
+            "action": null,
+            "options": [
+                {
+                    "intent": "call",
+                    "advance": {
+                        "x": "6",
+                        "y": "1"
+                    }
+                },
+                {
+                    "intent": "no_call",
+                    "advance": {
+                        "x": "6",
+                        "y": "0"
+                    }
+                }
+            ]
+        }
+    },
+    "6": {
+        "0": {
+            "reply": "Ok, we will figure out what to do tomorrow",
+            "alternateResponse": null,
+            "nlpData": null,
+            "schedule": {
+                "fromNow": "10000"
+            },
+            "action": null,
+            "options": [
+                {
+                    "intent": "who",
+                    "advance": {
+                        "x": "7",
+                        "y": "0"
+                    }
+                }
+            ]
+        },
+        "1": {
+            "reply": "She is currently observing it and said 'I am apalled by this creature and apalled by your sense of ethics, you will be expelled from MIT!'. She also informed us she will be staying the night at our lab.",
+            "alternateResponse": null,
+            "nlpData": null,
+            "schedule": {
+                "fromNow": "10000"
+            },
+            "action": null,
+            "options": [
+                {
+                    "intent": "who",
+                    "advance": {
+                        "x": "7",
+                        "y": "0"
+                    }
+                }
+            ]
+        }
+    },
+    "7": {
+        "0": {
+            "reply": "IT IS MISSING! WE CANT FIND IT ANYWHERE",
+            "alternateResponse": null,
+            "nlpData": null,
+            "schedule": null,
+            "action": null,
+            "options": null
+        },
+        "1": {
+            "reply": "WE WENT TO THE LAB TODAY TO MAKE AMENDS BUT SHE IS MISSING AND SO IS THE CREATURE!",
+            "alternateResponse": null,
+            "nlpData": null,
+            "schedule": null,
+            "action": null,
+            "options": null
+        }
+    }
+}
